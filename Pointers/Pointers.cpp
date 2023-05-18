@@ -26,9 +26,34 @@ public:
     }
 };
 
+
+class BaseA {
+private:
+    int x = 0;
+public:
+    void print() {
+        cout << x << endl;
+    }
+};
+
+
+class BaseB: public BaseA {
+private:
+    int x = 1;
+public:
+    void print() {
+        cout << x << endl;
+    }
+};
+
 int main()
 {
     setlocale(LC_ALL, "ru");
+    
+    BaseA* b = new BaseB();
+    b->print();
+    
+
 
     int a = 5;
     int *pa = &a;

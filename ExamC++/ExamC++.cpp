@@ -264,7 +264,7 @@ int main()
 	//операторы форматного ввода
 	cout << "Операторы форматного ввода:" << endl;
 	int pizza;
-	scanf_s("%d", &pizza);
+	scanf_s("%d", &	pizza);
 	cout << pizza << endl;
 
 	//форматный ввод и вывод файловый
@@ -280,11 +280,11 @@ int main()
 
 
 	//операторы бесформатного вывода
-	/*cout << "Операторы бесформатного ввода:" << endl;
+	cout << "Операторы бесформатного ввода:" << endl;
 	const char* fname = "pizza.bin";
 	string s = "Hello everyone! How are you doing? \n \t уруррурурурур ьеь 485739 393 92 9 \t 001010";
 	fstream(fname, ios::out | ios::binary) << s;
-	cout << s << endl;*/
+	cout << s << endl;
 
 
 	string j = "Hello everyone? My name is 45 \t 86 \n 7777 \t gogog 343 01";

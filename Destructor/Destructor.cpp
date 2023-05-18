@@ -132,8 +132,6 @@ int main()
     cin >> bob;
     cout << "Name: " << hob.getName() << "\tAge: " << hob.getAge() << endl;
 
-
-
     return 0;
 
 }
